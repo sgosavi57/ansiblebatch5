@@ -1,6 +1,6 @@
 - hosts: linux
   tasks:
-  - name: install apache on ubuntu
+  - name: install apache on ubuntu change
     apt:
       name=apache2
       update_cache=yes
